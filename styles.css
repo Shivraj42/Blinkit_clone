@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nav_logo:hover{
+    background-color: rgb(128, 128, 128);
+}
+
+#verticle_line{
+align-content: stretch;
+ height: 86px;
+ border-left: 1px solid rgb(204, 204, 204);
+}
+
+#delivery_time>h5{
+    margin: 0px;
+    font-weight: 800;
+}
+#delivery-time>p{
+    margin: 0px;
+}
+#search_div{
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding-inline: 10px;
+    width: 40vw;
+}
+
+#search_div>input{
+    border: none;
+    background-color: transparent;
+    width:95%;
+    height: 45px;
+}
+.cards_section,.category_section, footer{
+    width: 85vw !important;
+    margin: auto;
+}
+.scrollable_div{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.scrollable_div>img{
+    display: inline-block;
+
+}
+.scrollable_div::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollable_div {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+#category{
+    width: 85vw;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.see_all>a{
+    text-decoration: none;
+    color: green;
+}
+.add_btn{
+    background-color:rgba(0, 128, 0, 0.05);
+}
+.my_card{
+    width: 200px !important;
+    display: inline-block !important;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 15px !important;
+    white-space:wrap;
+}
+.time_div{
+    background-color: rgb(237, 237, 237);
+    width:fit-content;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-inline: 5px;
+}
+.product_title{
+    width:100%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+.product_weight, .old_price{
+    font-size: 13px;
+    color: #666666;
+}
