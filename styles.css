@@ -97,3 +97,7 @@ align-content: stretch;
     font-size: 13px;
     color: #666666;
 }
+.my_card>img{
+    justify-items:center;
+    margin-left: 20px;
+}
